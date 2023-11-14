@@ -1,0 +1,2 @@
+# BWD
+Bypass-Windows-Defender
